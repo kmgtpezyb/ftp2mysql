@@ -36,9 +36,9 @@ var (
 func DefaultOptions() (*cliftp.FTPOptions) {
 
 	return &cliftp.FTPOptions{
-		User:"FTP_tongxun",
-		Word:"Qw784512",
-		Server:"172.168.98.72",
+		User:"axxxxx",
+		Word:"xxxxxx",
+		Server:"172.xxx.xx.xx",
 		Port:"21",
 	}
 }
@@ -46,10 +46,10 @@ func DefaultOptions() (*cliftp.FTPOptions) {
 func DefaultServer() *climysql.ServerConfig {
 
 	return &climysql.ServerConfig {
-		User:"tongxun",
-		Pass:"lwhyst753",
-		Host:"172.168.98.72:3000",
-		DbName:"辰州",
+		User:"xxxxx",
+		Pass:"xxxxx",
+		Host:"172.xx.xx:3000",
+		DbName:"xx",
 	}
 }
 
