@@ -41,8 +41,8 @@
 
         return &cliftp.FTPOptions{
                 User:"FTP_tongxun",	//Ftp用户名
-                Word:"Qw784512",	//Ftp密码
-                Server:"172.168.98.72",	//Ftp地址
+                Word:"aaaaaaaa",	//Ftp密码
+                Server:"172.168.98.xx",	//Ftp地址
                 Port:"21",		//Ftp端口
         }
     }
@@ -52,9 +52,9 @@
     DefaultServer() *climysql.ServerConfig {
 
         return &climysql.ServerConfig {
-                User:"tongxun",		//Mysql用户名
-                Pass:"lwhyst753",	//Mysql密码
-                Host:"172.168.98.72:3000",//Mysql地址及端口
+                User:"useruser",		//Mysql用户名
+                Pass:"aaaaxxxxx",	//Mysql密码
+                Host:"172.xx.xx.xx:3000",//Mysql地址及端口
                 DbName:"办公系统",	//Mysql数据库
         }
     }
